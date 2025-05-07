@@ -1,4 +1,6 @@
-track: 'custom'
+arch-repo: https://geo.mirror.pkgbuild.com
+repo: https://pkg-repo.blendos.co
+track: custom
 
 packages:
   - 'gvfs'
@@ -18,6 +20,9 @@ packages:
   - 'git'
   - 'bash'
   - 'bzip2'
+  - 'python3-pip'
+  - 's-tui'
+  - 'stress'
   - 'coreutils'
   - 'file'
   - 'filesystem-blend'
@@ -135,27 +140,30 @@ packages:
   - 'ttf-dejavu'
   - 'ttf-liberation'
   - 'noto-fonts'
-  - 'ttf-ms-fonts'
   - 'noto-fonts-emoji'
-  - 'nerd-fonts-complete'
   - 'btop'
   - 'fastfetch'
   - 'vlc'
-  - 'gnupg'
   - 'zathura'
   - 'clang'
   - 'jdk-openjdk'
   - 'cmake'
   - 'gdb'
   - 'lazygit'
+  - 'nvim'
+  - 'preload'
 
 aur-packages:
   - 'visual-studio-code-bin'
   - 'brave-bin'
+  - 'ocs-url'
 
 services:
   - 'lightdm'
   - 'NetworkManager'
+  - 'lactd.service'
+  - 'preload.service'
 
 user-services:
   - 'blend-files'
+
