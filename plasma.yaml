@@ -1,5 +1,3 @@
-arch-repo: https://geo.mirror.pkgbuild.com
-repo: https://pkg-repo.blendos.co
 track: custom
 
 packages:
