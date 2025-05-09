@@ -156,6 +156,7 @@ aur-packages:
   - 'brave-bin'
   - 'ocs-url'
   - 'preload'
+  - 'inkdrop'
 
 services:
   - 'sddm'
