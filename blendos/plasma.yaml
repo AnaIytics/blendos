@@ -23,6 +23,7 @@ packages:
   - 'stress'
   - 'coreutils'
   - 'blend-web-store'
+  - 'vim'
   - 'file'
   - 'filesystem-blend'
   - 'findutils'
