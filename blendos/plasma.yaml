@@ -22,6 +22,7 @@ packages:
   - 's-tui'
   - 'stress'
   - 'coreutils'
+  - 'blend-web-store'
   - 'file'
   - 'filesystem-blend'
   - 'findutils'
@@ -142,10 +143,7 @@ packages:
   - 'noto-fonts-emoji'
   - 'btop'
   - 'fastfetch'
-  - 'vlc'
-  - 'zathura'
   - 'clang'
-  - 'jdk-openjdk'
   - 'cmake'
   - 'gdb'
   - 'lazygit'
@@ -155,13 +153,11 @@ aur-packages:
   - 'visual-studio-code-bin'
   - 'brave-bin'
   - 'ocs-url'
-  - 'preload'
 
 services:
   - 'sddm'
   - 'NetworkManager'
   - 'lactd.service'
-  - 'preload.service'
 
 user-services:
   - 'blend-files'
