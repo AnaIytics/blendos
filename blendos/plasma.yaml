@@ -10,6 +10,7 @@ packages:
   - 'gvfs-nfs'
   - 'gvfs-smb'
   - 'alsa-utils'
+  - 'bpkg'
   - 'amd-ucode'
   - 'arch-install-scripts'
   - 'b43-fwcutter'
